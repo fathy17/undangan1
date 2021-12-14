@@ -4,11 +4,10 @@
   "info": {
     "singularName": "rsvp",
     "pluralName": "rsvps",
-    "displayName": "rsvp",
-    "description": ""
+    "displayName": "rsvp"
   },
   "options": {
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
@@ -18,18 +17,14 @@
     "jumlah": {
       "type": "string"
     },
+    "hadir": {
+      "type": "string"
+    },
     "acara": {
-      "type": "enumeration",
-      "enum": [
-        "acara_resepsi",
-        "akad_nikah"
-      ]
+      "type": "string"
     },
     "hp": {
       "type": "string"
-    },
-    "hadir": {
-      "type": "boolean"
     }
   }
 }
