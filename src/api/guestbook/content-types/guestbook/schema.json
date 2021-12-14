@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "guestbooks",
+  "info": {
+    "singularName": "guestbook",
+    "pluralName": "guestbooks",
+    "displayName": "guestbook"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rsvps",
+  "info": {
+    "singularName": "rsvp",
+    "pluralName": "rsvps",
+    "displayName": "rsvp",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "jumlah": {
+      "type": "string"
+    },
+    "acara": {
+      "type": "enumeration",
+      "enum": [
+        "acara_resepsi",
+        "akad_nikah"
+      ]
+    },
+    "hp": {
+      "type": "string"
+    },
+    "hadir": {
+      "type": "boolean"
+    }
+  }
+}
